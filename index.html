@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos."> -->
+  <!-- <meta name="keywords" content="Nerfies, D-NeRF, NeRF"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leveraging Adaptive Group Negotiation for Heterogeneous Multi-Robot Collaboration with Large Language Models</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Leveraging Adaptive Group Negotiation for Heterogeneous Multi-Robot Collaboration with Large Language Models</h1>
+          <div class="is-size-5 publication-authors">
+            <!-- <span class="author-block">
+              <a href="">Author List</a><sup>1</sup>,</span> -->
+            <span class="author-block">
+              <a href="https://song-siqi.github.io">Siqi Song</a><sup>1*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="#">Xuanbing Xie</a><sup>2*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="#">Zonglin Li</a><sup>3*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="#">Yuqiang Li</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="#">Shijie Wang</a><sup>3†</sup>,
+            </span>
+            <span class="author-block">
+              <a href="#">Biqing Qi</a><sup>3†</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <!-- <span class="author-block"><sup>1</sup>University of Washington,</span> -->
+            <!-- <span class="author-block"><sup>2</sup>Google Research</span> -->
+            <span class="author-block"><sup>1</sup>Tsinghua University,</span>
+            <span class="author-block"><sup>2</sup>Central South University,</span>
+            <span class="author-block"><sup>3</sup>Shanghai AI Laboratory</span>
+          </div>
+
+          <!-- <br>
+          <p class="subtitle is-5" style="font-weight: bold;">International Conference on Humanoid Robots 2025 <span style="color: red;">Oral Presentation</span></p> -->
+
+          <p class="subtitle is-6" style="font-style: italic; color: gray;">Previously titled: CLiMRS: Cooperative Large-Language-Model-Driven Heterogeneous Multi-Robot System</p>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/pdf/2412.14172"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+              <!-- <span class="link-block">
+                <a href="https://arxiv.org/abs/2412.14172"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span> -->
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <!-- <span class="link-block">
+                <a href="https://github.com/sihengz02/UH-1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>UH-1</span>
+                  </a>
+              </span> -->
+
+              <!-- <span class="link-block">
+                <a href="https://x.com/SihengZhao/status/1870153134112154006" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                  <span>Twitter</span>
+                </a>
+              </span> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Abstract. -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Multi-robot collaboration tasks often require heterogeneous robots to work together over long horizons under spatial constraints and environmental uncertainties.
+            Although Large Language Models (LLMs) excel at reasoning and planning, their potential for coordinated control in heterogeneous multi-robot teams has not been fully explored.
+            We present \ourmethod{}, an adaptive group negotiation framework among multiple LLMs that enables multi-robot collaboration, inspired by human teamwork.
+            The framework pairs each robot with an independent LLM agent and dynamically forms subgroups through a general proposal planner that reasons under long-horizon uncertainty, enabling parallel execution of subtasks.
+            Within each subgroup, a subgroup manager leads perception-driven multi-LLM discussions to synchronize actions.
+            Each robotic agent provides feedback from both itself and the environment to refine plans.
+            This grouping–planning–execution–feedback loop enables efficient long-horizon planning and robust execution.
+            To evaluate these capabilities, we introduce \ourbenchmark{}, a heterogeneous multi-robot benchmark of challenging assembly tasks.
+            Across both \ourbenchmark{} and a simpler benchmark, \ourmethod{} surpasses the best baseline, boosting success rates and improving efficiency on complex tasks while maintaining very high success on simpler tasks.
+            Our results demonstrate that leveraging human-inspired group formation and negotiation principles markedly enhances the efficiency of heterogeneous multi-robot collaboration.
+          </p>
+          <!-- <p>
+            This paper introduces Humanoid-X, a large-scale dataset of over 20 million humanoid robot poses with corresponding
+            text-based motion descriptions, designed to leverage this abundant data.
+            Humanoid-X is curated through a comprehensive pipeline: data mining from the Internet, video caption generation,
+            motion retargeting of humans to humanoid robots, and policy learning for real-world deployment.
+            With Humanoid-X, we further train a large humanoid model, UH-1, which takes text instructions as input and outputs
+            corresponding actions to control a humanoid robot.
+          </p>
+          <p>
+            Extensive simulated and real-world experiments validate that our scalable training approach leads to superior
+            generalization in text-based humanoid control, marking a significant step toward adaptable, real-world-ready humanoid robots.
+          </p> -->
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+<!-- / Abstract. -->
+
+<!-- Citation. -->
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@INPROCEEDINGS{11203143,
+      author={Mao, Jiageng and Zhao, Siheng and Song, Siqi and Hong, Chuye and Shi, Tianheng and Ye, Junjie and Zhang, Mingtong and Geng, Haoran and Malik, Jitendra and Guizilini, Vitor and Wang, Yue},
+      booktitle={2025 IEEE-RAS 24th International Conference on Humanoid Robots (Humanoids)}, 
+      title={Universal Humanoid Robot Pose Learning from Internet Human Videos}, 
+      year={2025},
+      volume={},
+      number={},
+      pages={1-8},
+      keywords={Training;Adaptation models;Semantics;Pipelines;Humanoid robots;Reinforcement learning;Internet;Reliability;Data mining;Videos},
+      doi={10.1109/Humanoids65713.2025.11203143}}</code></pre>
+  </div>
+</section> -->
+<!--/ Citation. -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+            <br>
+            Template was borrowed from <a
+            href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>
+          </p>
+          <!-- <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
