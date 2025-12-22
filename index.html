@@ -105,27 +105,19 @@
           <p>
             Multi-robot collaboration tasks often require heterogeneous robots to work together over long horizons under spatial constraints and environmental uncertainties.
             Although Large Language Models (LLMs) excel at reasoning and planning, their potential for coordinated control in heterogeneous multi-robot teams has not been fully explored.
+          </p>
+          <p>
             We present CLiMRS, an adaptive group negotiation framework among multiple LLMs that enables multi-robot collaboration, inspired by human teamwork.
             The framework pairs each robot with an independent LLM agent and dynamically forms subgroups through a general proposal planner that reasons under long-horizon uncertainty, enabling parallel execution of subtasks.
             Within each subgroup, a subgroup manager leads perception-driven multi-LLM discussions to synchronize actions.
             Each robotic agent provides feedback from both itself and the environment to refine plans.
             This grouping–planning–execution–feedback loop enables efficient long-horizon planning and robust execution.
+          </p>
+          <p>
             To evaluate these capabilities, we introduce CLiMBench, a heterogeneous multi-robot benchmark of challenging assembly tasks.
             Across both CLiMBench and a simpler benchmark, CLiMRS surpasses the best baseline, boosting success rates and improving efficiency on complex tasks while maintaining very high success on simpler tasks.
             Our results demonstrate that leveraging human-inspired group formation and negotiation principles markedly enhances the efficiency of heterogeneous multi-robot collaboration.
           </p>
-          <!-- <p>
-            This paper introduces Humanoid-X, a large-scale dataset of over 20 million humanoid robot poses with corresponding
-            text-based motion descriptions, designed to leverage this abundant data.
-            Humanoid-X is curated through a comprehensive pipeline: data mining from the Internet, video caption generation,
-            motion retargeting of humans to humanoid robots, and policy learning for real-world deployment.
-            With Humanoid-X, we further train a large humanoid model, UH-1, which takes text instructions as input and outputs
-            corresponding actions to control a humanoid robot.
-          </p>
-          <p>
-            Extensive simulated and real-world experiments validate that our scalable training approach leads to superior
-            generalization in text-based humanoid control, marking a significant step toward adaptable, real-world-ready humanoid robots.
-          </p> -->
         </div>
       </div>
     </div>
@@ -133,6 +125,23 @@
   </div>
 </section>
 <!-- / Abstract. -->
+
+<!-- Overview. -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Overview</h2>
+        <div class="column is-full has-text-centered">
+          <img src="./static/images/teaser.png"
+               style="width: 100%; height: auto;"
+               alt="Overview of the framework."/>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/ Overview. -->
 
 <!-- Citation. -->
 <!-- <section class="section" id="BibTeX">
