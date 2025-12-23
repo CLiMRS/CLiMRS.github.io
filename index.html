@@ -94,6 +94,40 @@
   </div>
 </section>
 
+<!-- Overview. -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Header. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Overview</h2>
+      </div>
+    </div>
+    <!--/ Header. -->
+
+    <!-- Overview Content. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <div class="content has-text-justified">
+          <p>
+            <!-- TODO: Add your overview description here. -->
+            <strong>TL;DR</strong>: We introduce <strong>CLiMRS</strong>, an adaptive group negotiation framework among multiple LLMs that enables multi-robot collaboration, inspired by human teamwork.
+            CLiMRS operates through a grouping–planning–execution–feedback loop, enabling efficient long-horizon planning and robust execution.
+            We also present <strong>CLiMBench</strong>, a heterogeneous multi-robot benchmark with challenging assembly tasks.
+          </p>
+        </div>
+        <div class="column is-full has-text-centered">
+          <img src="./static/images/teaser.png"
+               style="width: 100%; height: auto;"
+               alt="Overview of the framework."/>
+        </div>
+      </div>
+    </div>
+    <!--/ Overview Content. -->
+  </div>
+</section>
+<!--/ Overview. -->
+
 <!-- Abstract. -->
 <section class="section">
   <div class="container is-max-desktop">
@@ -126,23 +160,6 @@
 </section>
 <!-- / Abstract. -->
 
-<!-- Overview. -->
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Overview</h2>
-        <div class="column is-full has-text-centered">
-          <img src="./static/images/teaser.png"
-               style="width: 100%; height: auto;"
-               alt="Overview of the framework."/>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--/ Overview. -->
-
 <!-- Method. -->
 <section class="section">
   <div class="container is-max-desktop">
@@ -160,7 +177,7 @@
         <div class="content has-text-justified">
           <p>
             <!-- TODO: Add your method description here. -->
-            <strong>CLiMRS</strong> comprises five core modules:
+            <strong>CLiMRS</strong> comprises five core modules for multi-LLM driven planning and execution in heterogeneous multi-robot collaboration:
           </p>
           <p>
             (a) a <strong>general proposal planner</strong> that forms dynamic agent groups, 
