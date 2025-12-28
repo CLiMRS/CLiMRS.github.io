@@ -138,19 +138,19 @@
         <div class="content has-text-justified">
           <p>
             Multi-robot collaboration tasks often require heterogeneous robots to work together over long horizons under spatial constraints and environmental uncertainties.
-            Although Large Language Models (LLMs) excel at reasoning and planning, their potential for coordinated control in heterogeneous multi-robot teams has not been fully explored.
+            Although Large Language Models (LLMs) excel at reasoning and planning, their potential for coordinated control has not been fully explored.
           </p>
           <p>
-            We present CLiMRS, an adaptive group negotiation framework among multiple LLMs that enables multi-robot collaboration, inspired by human teamwork.
-            The framework pairs each robot with an independent LLM agent and dynamically forms subgroups through a general proposal planner that reasons under long-horizon uncertainty, enabling parallel execution of subtasks.
-            Within each subgroup, a subgroup manager leads perception-driven multi-LLM discussions to synchronize actions.
-            Each robotic agent provides feedback from both itself and the environment to refine plans.
-            This grouping–planning–execution–feedback loop enables efficient long-horizon planning and robust execution.
+            Inspired by human teamwork, we present CLiMRS (Cooperative Large-Language-Model-Driven Heterogeneous Multi-Robot System), an adaptive group negotiation framework among LLMs for multi-robot collaboration.
+            This framework pairs each robot with an LLM agent and dynamically forms subgroups through a general proposal planner.
+            Within each subgroup, a subgroup manager leads perception-driven multi-LLM discussions to get commands for actions.
+            Feedback is provided by both robot execution outcomes and environment changes.
+            This grouping–planning–execution–feedback loop enables efficient planning and robust execution.
           </p>
           <p>
             To evaluate these capabilities, we introduce CLiMBench, a heterogeneous multi-robot benchmark of challenging assembly tasks.
-            Across both CLiMBench and a simpler benchmark, CLiMRS surpasses the best baseline, boosting success rates and improving efficiency on complex tasks while maintaining very high success on simpler tasks.
-            Our results demonstrate that leveraging human-inspired group formation and negotiation principles markedly enhances the efficiency of heterogeneous multi-robot collaboration.
+            Our experiments show that CLiMRS surpasses the best baseline, achieving over 40% higher efficiency on complex tasks without sacrificing success on simpler ones.
+            Overall, our results demonstrate that leveraging human-inspired group formation and negotiation principles significantly enhances the efficiency of heterogeneous multi-robot collaboration.
           </p>
         </div>
       </div>
